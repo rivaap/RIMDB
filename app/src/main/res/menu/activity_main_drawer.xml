@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/movie"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/movies" />
+        <item
+            android:id="@+id/nav_tv_shows"
+            android:icon="@drawable/tv"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/tv_shows" />
+        <item
+            android:id="@+id/nav_popular_people"
+            android:icon="@drawable/people"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/popular_people" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_menu_gallery"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/favorites" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/db"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/offline" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_share"
+            android:iconTint="@android:color/darker_gray"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:iconTint="@android:color/darker_gray"
+            android:title="@string/about" />
+    </group>
+
+</menu>
